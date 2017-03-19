@@ -1,0 +1,19 @@
+@media only screen and (max-width : 768px) {
+    .data_item_column {
+
+        flex-direction: column;
+
+    }
+
+    .data_item_column div {
+    margin: 20px 0;
+    }
+}}
+
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>site test</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+
+
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/diagram.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+
+
+
+</head>
+
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+
+
+
+
+
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="text" class="search" >
+                            <input type="button" value="Search" id="butn" class="butn">
+                        </div>
+                    </form>
+
+            </div>
+
+
+            <div class="col-xs-6">
+                <div class="statistic">
+                    <button  class="butn"  type="button" data-toggle="modal" data-target="#myModal">More men or women?</button>
+
+
+                    <div id="myModal" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button class="close" type="button" data-dismiss="modal">×</button>
+
+                                    <h2 class="modal-title">So more men or women?</h2>
+                                </div>
+
+                                <div class="modal-body">
+
+                                    <div id='dashboard'></div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section id="user_table">
+    <div class="container ">
+                <div class="row">
+                        <div class="col-xs-12">
+                                <div class="header_block">
+                                    <div class="row">
+
+                                        <div class="col-md-2 col-md-offset-1 col-sm-4 col-sm-offset-2 col-xs-4 col-xs-offset-2">
+                                            <div class="heder_item">
+                                                <p>first name</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 hidden-sm hidden-xs">
+                                            <div class="heder_item">
+                                                <p>last name</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-sm-4 col-xs-4">
+                                            <div class="heder_item">
+                                                <p>username</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 hidden-sm hidden-xs">
+                                            <div class="heder_item ">
+                                                <p>phone</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2 hidden-sm hidden-xs">
+                                            <div class="heder_item">
+                                                <p>location</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+
+
+                </div>
+            </div>
+
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="panel-group" id="accordion">
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<script src="libs/jquery/jquery-3.1.1.js"></script>
+<script src="libs/bootstrap/js/bootstrap.js"></script>
+<script src="js/common.js" ></script>
+<script src="js/plus.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+path {  stroke: #fff; }
+path:hover {  opacity:0.7; }
+rect:hover {  fill:#66976b; }
+
+.legend tr{    border-bottom:1px solid #66976b; }
+.legend tr:first-child{    border-top:1px solid #66976b; }
+
+
+
+
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}

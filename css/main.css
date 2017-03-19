@@ -1,0 +1,242 @@
+
+body {
+    cursor: default;
+    background: #fff2d1;
+
+}
+
+header {
+    padding-top: 30px;
+}
+
+.search, .butn{
+    border-radius: 10px;
+    outline: none;
+}
+
+.search {
+
+    border: 3px solid 	#ceb4a1;
+    height: 35px;
+    background: #fff2d1;
+
+    transition: .3s background;
+
+
+}
+.search:focus {
+    background: #fffaed;
+}
+
+.butn {
+    padding: 10px 25px;
+    border:  2px solid #f2dca6;
+    background-color: #f5e5bc;
+
+
+
+    color:#866146;
+    text-transform: lowercase;
+    font-weight: bold;
+
+    transition: 1s  box-shadow;
+}
+
+ .butn:hover {
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, .2);
+}
+
+
+
+
+.statistic {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.statistic h2, .modal-title {
+    color: #66976b;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+.header_block {
+    background-color: #66976b;
+    margin: 0  -15px ;
+    min-height: 50px;
+
+
+
+}
+
+.heder_item{
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+
+.panel-default > .panel-heading, .panel-default > div > .panel-body {
+    background-color: #c9d0d6;
+    padding:0;
+}
+
+.panel-group .panel + .panel {
+    margin-top:0;
+}
+
+.panel-default{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    border-radius: 50%;
+    border: 3px solid #66976b;
+    box-shadow: 2px 2px 4px;
+
+
+}
+
+
+
+
+.data_item i {
+    font-size: 200%;
+    color: #66976b;
+
+    transition: .5s color;
+
+}
+
+.data_item i:hover {
+    color: #b5c870;
+}
+
+.plus-minus >  i{
+    color: #66976B;
+    font-size: 200%;
+}
+
+
+
+.data-min {
+    background-color: #ceb4a1;
+    border-radius: 4px;
+
+    font-size: 100%;
+
+
+
+
+}
+
+.data-min p, i {
+    padding-top: 25px;
+}
+
+.data-min div div div {
+    padding: 0 10px;
+}
+
+ .user_first,  .user_last,
+ .user_location {
+    text-transform: capitalize;
+}
+
+
+.user_first {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.data-full {
+    background-color:#ceb4a1;
+}
+
+.data_item, .data_item_img {
+    padding: 10px 20px;
+}
+
+.data_item h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+
+.data_item_column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.data_item_column  p {
+    font-weight:bold;
+}
+
+.data_item_column  span {
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
